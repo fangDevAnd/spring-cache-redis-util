@@ -1,10 +1,11 @@
-package com.atguigu.cache.service.base;
+package com.qs.cacheredis.springcache.service.base;
 
-import com.atguigu.cache.bean.Employee;
+import com.atguigu.cache.service.base.BaseMapper;
 import com.atguigu.cache.service.base.cache.RedisCacheMaintain;
 import com.atguigu.cache.service.base.cache.RedisCacheProcess;
 import com.atguigu.cache.service.base.entity.Page;
 import com.atguigu.cache.service.base.entity.Paging;
+import com.qs.cacheredis.springcache.service.base.cache.RedisCacheMaintain;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.aop.framework.AopContext;

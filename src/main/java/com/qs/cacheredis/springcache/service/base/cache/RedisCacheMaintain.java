@@ -1,8 +1,8 @@
-package com.atguigu.cache.service.base.cache;
+package com.qs.cacheredis.springcache.service.base.cache;
 
 
 import com.atguigu.cache.service.base.BaseMapper;
-import com.atguigu.cache.service.base.BaseServiceMyBatis;
+import com.atguigu.cache.service.base.cache.RedisCacheProcess;
 import com.atguigu.cache.service.base.tool.Tool;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
